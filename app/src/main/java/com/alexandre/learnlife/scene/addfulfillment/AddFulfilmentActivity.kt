@@ -16,7 +16,7 @@ class AddFulfilmentActivity : AppCompatActivity() {
             val database = FirebaseDatabase.getInstance()
             val myRef = database.getReference("fulfilments")
 
-            myRef.setValue(editText.text.toString())
+            myRef.push().setValue(editText.text.toString())
 
 
         }
