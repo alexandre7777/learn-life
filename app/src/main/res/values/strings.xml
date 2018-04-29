@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Learn Life</string>
+    <string name="send_btn">send</string>
+    <string name="add_btn">Add</string>
 </resources>
